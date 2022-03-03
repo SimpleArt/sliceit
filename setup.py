@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as readme_file:
 
 setup(
     name="sliceit",
-    version="0.0.0",
+    version="0.0.1",
     description="Dynamically sized slice views which avoid storing their own data.",
     packages=["sliceit"],
     python_requires=">=3.5",
